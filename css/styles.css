@@ -36,6 +36,7 @@ ul{
 .logo{
     display: flex;
     padding: 10px;
+    color: #E5E7EB;
 }
 
 .links-container{
@@ -51,6 +52,7 @@ ul{
     align-items: flex-end;
     gap: 10px;
     padding: 10px;
+    font-size: 16px;
 }
 
 .main-content{
@@ -61,15 +63,16 @@ ul{
     background-color: #1F2937;
     width: 100%;
     color: #E5E7EB;
-
+    gap: 60px;
+    padding: 50px 0 70px 0;
 }
 
 .main-text{
     display: flex;
     flex-direction: column;
-    justify-content: flex-start
-    align-items: center;
-    max-width: 400px;
+    justify-content: left;
+    /*align-items: center;*/
+    max-width: 550px;
 }
 
 .image-box{
@@ -80,32 +83,16 @@ ul{
     min-width: 400px;
     height: auto;
     object-fit: cover;
+    max-width: 500px;
+    /*border: gray solid 4px;*/
+    border: solid 5px #624CAB;
+    border-radius: 10px;
 }
 
 .title{
     font-size: 48px;
     font-weight: bolder;
     color: #E5E7EB;
-}
-
-.showcase{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: flex-start;
-    gap: 20px;
-    width: 100%;
-    padding: 30px 0 60px 0;
-    background: #C1CEFE;
-}
-
-.images{
-    min-width: 300px;
-    max-width: 300px;
-    height: 200px;
-    border: solid 5px #758ECD;
-    border-radius: 10px;
-    object-fit: cover;
 }
 
 .info-header{
@@ -117,19 +104,66 @@ ul{
     padding: 12px 0;
     color: #1F2937;
     width: 100%;
-    background-color: #C1CEFE;
+    background-color: #0E7C7B
+}
+
+.showcase{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 35px;
+    width: 100%;
+    padding: 0 0 50px 0;
+    background: #0E7C7B;
+}
+
+.images{
+    min-width: 300px;
+    max-width: 300px;
+    height: 200px;
+    border: solid 5px #758ECD;
+    border-radius: 10px;
+    object-fit: cover;
+}
+
+.subtitles{
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.show-sub{
+    font-weight: bolder;
 }
 
 .info{
     max-width: 300px;
 }
 
-.splash-image{
-    max-width: 300px;
-    height: auto;
-    /*border: gray solid 4px;*/
-    border: solid 5px #624CAB;
-    border-radius: 10px;
+.quote{
+    display: flex;
+    background-color: #E5E7EB;
+    width: 100%;
+    height: 200px;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: nowrap;
+    flex-direction: column;
+}
+
+.quote-text{
+    display: flex;
+    font-size: 36px;
+    font-style: italic;
+    color: #1F2937;
+}
+
+.quote-author{
+    display: flex;
+    font-weight: bolder;
+    font-size: 20px;
+    align-self: flex-end;
+
 }
 
 .cta{
